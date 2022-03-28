@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent Marker&display=swap');
+body{
+    background: url(../Images/rectangle_35.png) no-repeat center center / cover;
+    min-height: 100vh;
+}
+.service{
+    font-family: Acme;
+    padding-top: 10px;
+    margin-left: 40px;
+    color: white;
+}
+#input-data{
+    display: flex;
+}
+input.number{
+    width: 100px;
+    height: 28px;
+}
+input.from, input.to{
+    text-align: center;
+}
+input.search{
+    padding: 0px;
+}
+input.depature{
+    width: 172px;
+}
+#input-data{
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 850px;
+    margin-left: 100px;
+    background-color: #004E98;
+}
+ h5{
+    text-align: center;
+}
+.nav{
+    display: flex;
+}
+button.nav-home{
+    margin-top: 10px;
+    margin-left: 700px;
+    height: 30px;
+    width: 80px;
+    background-color: #FF6700;
+}
+.para{
+    padding: 50px;
+    text-align: center;
+    font-family: Permanent Marker;
+    font-size: 40px;
+}
+.fa-user-group{
+    color: #ABB1BA;
+    font-size: 80px;
+    /* padding-right: 100px; */
+    /* margin-left: 140px;  */
+    /* background-color: white; */
+}
+.fa-car-on{
+    color: #CED0D6;
+    font-size: 80px;
+    margin-left: 15px;
+}
+.fa-wifi{
+    color: #ABB1BA;
+    font-size: 80px;
+    margin-left: 15px;
+}
+.fa-code-branch{
+    color: #C4C8CF;
+    font-size: 80px;
+    margin-left: 15px;
+}
+p#text-icon1,p#text-icon2,p#text-icon3,p#text-icon4{
+    font-size: 12px;
+    font-style: Cabin;
+    color: #FF6700;
+    text-align: center;
+}
+.text2{
+    display: none;
+    text-align: center;
+    color: white;
+}
+.comfy2{
+    display: none;
+    text-align: center;
+    color: white;
+}
+.book2{
+    display: none;
+    text-align: center;
+    color: white;
+}
+.wifi2{
+    display: none;
+    text-align: center;
+    color: white;
+}
+#icons{
+    display: flex;
+    /* margin-left: 150px; */
+    justify-content: space-evenly;
+}
+.text{
+    margin-right: 100px;
+}
+.book{
+    margin-right: 100px;
+}
+.comfy{
+    margin-right: 100px;
+}
+button#book{
+    font-family: Acme;
+    font-size: 25px;
+    color: #FF6700;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.quote{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}

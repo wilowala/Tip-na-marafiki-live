@@ -1,0 +1,45 @@
+body {
+    font-family: 'Acme', sans-serif;
+    background-color: #004E98;
+    text-align: center;
+}
+.text-orange {
+    color: #FF6700;
+}
+.bg-orange {
+    background-color: #FF6700;
+}
+.bg-grey {
+    background-color: #C0C0C0;
+}
+.text-white {
+    color: #EBEBEB;
+}
+
+#signup-button {
+    background-color: #3A6EA5;
+    color: #C0C0C0;
+    border: none;
+}
+.text-black {
+    color: black;
+}
+
+h1 {
+    word-spacing: 20px;
+}
+form {
+    width: 30%;
+    display: inline-block;
+}
+
+h2 {
+    font-size:larger;
+    font-weight: 100 ;
+}
+
+@media screen and (max-width: 480px) {
+    form {
+        width: 80%;
+    }
+  }

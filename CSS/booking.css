@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#background{
+    background: url(../Images/jake-blucker-tMzCrBkM99Y-unsplash.jpg) no-repeat center center / cover;
+    min-height: 100vh;
+    display: block;
+    padding-top: 13%;
+    padding-left: 20%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: (rgba(0, 0, 0, 0.1)30%,rgba(0, 0, 0, 0.8)70%);
+    backdrop-filter: blur(.2rem);
+    width: 70%;
+    padding: 4%;
+}
+
+label{
+    color: #FF6700;
+    font-size: 1.26rem;
+}
+
+select option{
+    color: #FF6700;
+}
+
+select option:checked{
+    color: #FF6700;
+}
+
+select{
+    background-color: #C0C0C0;
+    padding: 2%;
+    width: 140%;
+    border-radius: 0.05rem;
+}
+
+input[type="text"],input[type="time"]{
+    background-color: #C0C0C0;
+    color: #FF6700;
+    border: none;
+    padding: 2%;
+}
+
+input[type="submit"]{
+    background-color: #004E98;
+    color: #EBEBEB;
+    border: none;
+    padding: 1%;
+    font-size: 1.35rem;
+}
+
+#cost{
+    display: block;
+    color: #C0C0C0;
+    font-size: 2.3rem;
+    margin-left: 20%;
+}
+
+#button{
+    padding-top: 5%;
+    padding-left: 30%;
+}
+
+#button a{
+    background-color: #FF6700;
+    padding: 1%;
+    font-size: 1.3rem;
+    border: #FF6700;
+    color: #EBEBEB;
+}
